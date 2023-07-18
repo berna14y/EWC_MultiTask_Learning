@@ -1,6 +1,10 @@
 # EWC_MultiTask_Learning
 Elastic Weight Consolidation for Multi Task Learning
 
+ContinualAI group has a colab which contains some solutions about continual learning. There are 3 defined task over MNIST. 
+Here i implemented elastic weight consolidation using the permuted datasets.
+
+
 The aim of the provided code is to implement the Elastic Weight Consolidation (EWC) algorithm for training a neural network on multiple tasks sequentially. The EWC algorithm is a method for enabling continual learning or lifelong learning, where a model learns multiple tasks over time without forgetting previously learned tasks.
 
 In the context of this code, the aim is to train a neural network on the MNIST dataset for multiple tasks. Each task represents a different variation of the MNIST dataset. The tasks are defined by permuting the pixels of the images in different ways, creating variations of the original dataset.
